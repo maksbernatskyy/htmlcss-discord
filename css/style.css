@@ -1,0 +1,125 @@
+/*CSS Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Debug*/
+
+.debug header{
+    height: 60px;
+    background-color: yellow;
+}
+
+.debug .small-flex{
+    height: 40px;
+    background-color: red;
+    margin-top: 5px;
+}
+
+.debug .pattern{
+    height: 400px;
+    background-color: lightblue;
+
+}
+
+.debug .text{
+    height: 300px;
+    background-color: orange;
+}
+
+.debug .bg-white{
+    height: 400px;
+    background-color: beige;
+}
+
+.debug .bg-gray{
+    height: 400px;
+    background-color: darkgray;
+}
+
+.debug .big{
+    height: 250px;
+    background-color: red;
+}
+
+.debug .small{
+    height: 250px;
+    background-color: green;
+}
+
+.debug footer{
+    height: 400px;
+    background-color: black;
+}
+
+.debug .flex-title{
+    height: 150px;
+    background-color: purple;
+}
+
+.debug .flex-menu{
+    height: 250px;
+    background-color: purple;
+}
+
+
+
+
+/*Utils*/
+
+.container-standard{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 5px;
+}
+
+section{
+    padding-top: 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big{
+    width: 55%;
+}
+
+.small{
+    width: 40%;
+}
+
+footer{
+    padding-top: 40px;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-title{
+    width: 20%;
+    margin: 5px;
+}
+
+.flex-menu{
+    width: 10%;
+    margin: 5px;
+}
+
+
