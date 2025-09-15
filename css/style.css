@@ -6,18 +6,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*Debug*/
-
-.debug header{
-    height: 60px;
-    background-color: yellow;
-}
-
-.debug .small-flex{
-    height: 40px;
-    background-color: red;
-    margin-top: 5px;
-}
 
 .debug .pattern{
     height: 400px;
@@ -66,9 +59,26 @@
 }
 
 
+/*Generics*/
 
+header{
+    background-color: #3161e0;
+    padding-top: 25px;
+}
+
+section{
+    padding-top: 40px;
+}
+
+.nav-head a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 5px;
+}
 
 /*Utils*/
+
+/*Container*/
 
 .container-standard{
     width: 80%;
@@ -81,18 +91,26 @@
     margin: 0 auto;
 }
 
-header{
-    padding-top: 5px;
-}
-
-section{
-    padding-top: 40px;
-}
+/*Flex*/
 
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.small-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Header*/
+
+.log-in{
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 1rem;
 }
 
 .big{
