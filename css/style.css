@@ -69,6 +69,10 @@ p{
     font-size: 18px;
 }
 
+main p{
+    margin-top: 20px;
+}
+
 /*Utils*/
 
 /*Container*/
@@ -158,12 +162,21 @@ p{
     width: 30%;
 }
 
-.fandom{
-    height: 600px;
+/*Sezione call*/
+
+.call{
+    text-align: center;
 }
 
-.small p{
-    margin-top: 20px;
+.stars{
+    background-image: url('../img/stars.svg');
+    display: inline-block;
+}
+
+.btn-blue{
+    background-color: #8ea1e1;
+    color: #fff;
+    border: 1px solid #8ea1e1;
 }
 
 /*Footer*/
