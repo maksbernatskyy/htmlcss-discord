@@ -61,7 +61,7 @@ section{
 }
 
 h2{
-    font-size: 45px;
+    font-size: 44px;
 }
 
 p{
@@ -88,7 +88,7 @@ p{
 
 .flex{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -146,6 +146,10 @@ p{
     padding: 80px;
 }
 
+.pdd-left-80{
+    padding-left: 80px;
+}
+
 .big{
     width: 70%;
 }
@@ -154,7 +158,7 @@ p{
     width: 30%;
 }
 
-.channels{
+.find{
     height: 600px;
 }
 
