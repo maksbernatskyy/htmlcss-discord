@@ -142,6 +142,10 @@ p{
 
 /*Sezioni flex*/
 
+.pdd-80 section{
+    padding: 80px;
+}
+
 .big{
     width: 70%;
 }
