@@ -12,12 +12,6 @@ body{
 
 /*Debug*/
 
-.debug .pattern{
-    height: 400px;
-    background-color: lightblue;
-
-}
-
 .debug .text{
     height: 300px;
     background-color: orange;
@@ -76,6 +70,16 @@ section{
     padding: 0px 5px;
 }
 
+h2{
+    font-size: 45px;
+}
+
+p{
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
 /*Utils*/
 
 /*Container*/
@@ -87,7 +91,7 @@ section{
 }
 
 .container-small{
-    max-width: 580px;
+    max-width: 680px;
     margin: 0 auto;
 }
 
@@ -111,6 +115,36 @@ section{
     border: 1px solid #fff;
     padding: 8px;
     border-radius: 1rem;
+}
+
+/*jumbotron*/
+
+.jumbotron{
+    height: 580px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+.jumbo{
+    color: #fff;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 14px;
+}
+
+.btn-white{
+    border: 1px solid #fff;
+
+}
+
+.btn-black{
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
 }
 
 .big{
