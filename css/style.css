@@ -27,16 +27,6 @@ body{
     background-color: darkgray;
 }
 
-.debug .big{
-    height: 250px;
-    background-color: red;
-}
-
-.debug .small{
-    height: 250px;
-    background-color: green;
-}
-
 .debug footer{
     height: 400px;
     background-color: black;
@@ -77,7 +67,6 @@ h2{
 p{
     line-height: 30px;
     font-size: 18px;
-    margin-top: 60px;
 }
 
 /*Utils*/
@@ -117,6 +106,10 @@ p{
     border-radius: 1rem;
 }
 
+.mrg-top-60{
+    margin-top: 60px;
+}
+
 /*jumbotron*/
 
 .jumbotron{
@@ -147,13 +140,25 @@ p{
     border: 1px solid black;
 }
 
+/*Sezioni flex*/
+
 .big{
-    width: 55%;
+    width: 70%;
 }
 
 .small{
-    width: 40%;
+    width: 30%;
 }
+
+.channels{
+    height: 600px;
+}
+
+.small p{
+    margin-top: 20px;
+}
+
+/*Footer*/
 
 footer{
     padding-top: 40px;
