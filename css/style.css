@@ -145,8 +145,11 @@ ul{
 }
 
 .stars{
+    height: 20px;
+    width: 25rem;
     background-image: url('../img/stars.svg');
-    display: inline-block;
+    background-size: contain;
+    margin-left: 24rem;
 }
 
 .btn-blue{
